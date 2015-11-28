@@ -1,10 +1,12 @@
 package com.phone178.www.android178phone;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
-
+/**
+ * Created by 49038 on 2015/11/27.
+ */
+public class MainActivity extends Activity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
