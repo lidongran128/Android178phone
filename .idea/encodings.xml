@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/badge_titlebar.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/bg_head.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/btn_category.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/btn_common.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/btn_common.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/default_round_head.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/refreshicon_titlebar.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/right_drawer.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/title.png" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
