@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/title_bar"
-    style="@style/title_bar_style" >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:id="@+id/titlebar_main"
+    android:orientation="vertical"
+
+    >
+<RelativeLayout
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+
+    style="@style/title_bar_style"
+>
+
 
     <ImageView
         android:id="@+id/btn_category"
@@ -14,7 +28,7 @@
 
     <FrameLayout
         android:id="@+id/top_head_container"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="fill_parent"
         android:paddingLeft="10.0dip"
         android:paddingRight="10.0dip" >
@@ -28,6 +42,21 @@
             android:padding="2.0dip"
             android:src="@drawable/default_round_head"
             android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@+id/title_recent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/title" />
+
+        <ImageView
+            android:id="@+id/top_more"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="end"
+            android:scaleType="centerInside"
+            android:src="@drawable/right_drawer" />
     </FrameLayout>
 
     <TextView
@@ -42,15 +71,7 @@
         android:background="@drawable/badge_titlebar"
         android:visibility="gone" />
 
-    <ImageView
-        android:id="@+id/top_more"
-        android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:gravity="center"
-        android:scaleType="centerInside"
-        android:src="@drawable/right_drawer" />
+
 
     <TextView
         android:id="@+id/top_right_count"
@@ -77,12 +98,7 @@
             android:layout_height="wrap_content"
             android:layout_centerVertical="true" >
 
-            <ImageView
-                android:id="@+id/title_recent"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:src="@drawable/title" />
+
 
             <TextView
                 android:id="@+id/title"
@@ -121,5 +137,6 @@
             android:minWidth="13.0dip"
             android:visibility="invisible" />
     </RelativeLayout>
-
 </RelativeLayout>
+
+</LinearLayout>

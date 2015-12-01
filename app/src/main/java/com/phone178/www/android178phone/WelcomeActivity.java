@@ -2,11 +2,9 @@ package com.phone178.www.android178phone;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-import android.view.Window;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 /**
@@ -32,7 +30,7 @@ public class WelcomeActivity extends Activity {
 
     private void initData() {
         alphaAnimation = new AlphaAnimation(0.1f,1.0f);
-        alphaAnimation.setDuration(3600);
+        alphaAnimation.setDuration(1000);
         welcomeView.startAnimation(alphaAnimation);
         alphaAnimation.setAnimationListener(new Animation.AnimationListener() {
             @Override
