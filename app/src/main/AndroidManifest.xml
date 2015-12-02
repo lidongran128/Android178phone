@@ -16,7 +16,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".ArticleActivity" />
+
         <activity android:name=".MainActivity"></activity>
+
+        <activity
+            android:name=".view.TestMainActivity">
+        </activity>
     </application>
 
 </manifest>

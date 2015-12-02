@@ -7,6 +7,9 @@ import android.view.View;
 
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
+
+import com.phone178.www.android178phone.view.TestMainActivity;
+
 /**
  * 启动界面
  *

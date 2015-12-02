@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">178手机社区</string>
     <string name="action_settings">设置</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="no1">No1</string>
+    <string name="no2">No2</string>
+    <string name="no3">No3</string>
+    <string name="no4">No4</string>
 </resources>
